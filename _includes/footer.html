@@ -1,3 +1,32 @@
+<div class="modal fade" id="callModal" tabindex="-1" role="dialog" aria-labelledby="callModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="callModalTitle">Заказать звонок</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <form class="outline-secondary fv-form fv-form-bootstrap" id="callForm" action="" data-handler="/call" method="post" novalidate="novalidate"><button type="submit" class="fv-hidden-submit" style="display: none; width: 0px; height: 0px;"></button>
+                <input type="hidden" name="_token" value="pW7HiM2Fr1K3PiLpELGwCPMaOksIhuG3BMh8L3Xd">
+                <input type="hidden" name="type">
+
+                <div class="modal-body form-row">
+                    <div class="col-md-6 mb-1 form-group">
+                        <input type="text" class="form-control" name="person" placeholder="Ваше имя" data-fv-field="person">
+                    <small class="help-block" data-fv-validator="stringLength" data-fv-for="person" data-fv-result="NOT_VALIDATED" style="display: none;">Имя не должно превышать 50 символов</small></div>
+                    <div class="col-md-6 mb-1 form-group">
+                        <input type="tel" class="form-control" name="phone" placeholder="Телефон*" data-fv-field="phone">
+                    <small class="help-block" data-fv-validator="notEmpty" data-fv-for="phone" data-fv-result="NOT_VALIDATED" style="display: none;">Введите телефон</small><small class="help-block" data-fv-validator="regexp" data-fv-for="phone" data-fv-result="NOT_VALIDATED" style="display: none;">Введите номер телефона</small></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="reset" class="btn btn-dark" data-dismiss="modal">Закрыть</button>
+                    <button type="submit" class="btn btn-primary">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 <footer class="mt-5 pt-5">
             <div class="container">
                 <div class="row">
