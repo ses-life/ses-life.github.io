@@ -20,3 +20,6 @@ defaults:
 
 sass:
   style: compressed
+
+plugins:
+  - jekyll-sitemap
