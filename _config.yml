@@ -4,6 +4,10 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://ses-life.github.io" # the base hostname & protocol for your site
 permalink: /:title
 
+title: Дезинсекция, дератизация, дезинфекция, дезодорация - СЭС-life
+
+description: Санитарно-эпидемиологическая служба. Уничтожение насекомых, грызунов, неприятных запахов с гарантией.
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
