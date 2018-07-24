@@ -11,7 +11,8 @@
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffdf00">
         <meta name="msapplication-TileColor" content="#000000">
         <meta name="theme-color" content="#ffffff">
-        <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-
-        <title>О компании - СЭС-life</title>
+        <link rel="stylesheet" href="{{ '/assets/main.css?v=' 
+    | append: site.github.build_revision | relative_url }}">
+        <title>{% if page.title %}{{ page.title | escape }}
+      {% else %}{{ site.title | escape }}{% endif %}</title>
 </head>
