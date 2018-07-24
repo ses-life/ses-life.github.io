@@ -1,7 +1,7 @@
 theme: minima
 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://ses-life.github.io" # the base hostname & protocol for your site
+url: "https://ses-life.github.io" # the base hostname & protocol for your site
 permalink: /:title
 
 compress_html:
