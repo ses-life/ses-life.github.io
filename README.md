@@ -1,2 +1,3 @@
-# ses-life.github.io
-Official site of «СЭС-life» company.
+# Прототип [сайта компании «СЭС-life»][1].
+
+[1]: http://ses-life.ru/ "Официальный сайт компании «СЭС-life»"
