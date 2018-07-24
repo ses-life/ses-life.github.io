@@ -1,0 +1,22 @@
+theme: minima
+
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://ses-life.github.io" # the base hostname & protocol for your site
+permalink: /:title
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  ignore:
+    envs: [local]
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "post"
+      sitemap: true
+
+sass:
+  style: compressed
