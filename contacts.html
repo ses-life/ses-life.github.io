@@ -44,24 +44,7 @@ permalink: /contacts
                 <div class="m-3">
                     <p class="lead text-center">Если у вас остались вопросы, заполните форму ниже и наш специалист свяжется с вами в ближайшее время</p>
                 </div>
-
-                <form class="outline-secondary border aos-init fv-form fv-form-bootstrap" data-aos="fade-up" id="callForm" action="" data-handler="/call" method="post" novalidate="novalidate"><button type="submit" class="fv-hidden-submit" style="display: none; width: 0px; height: 0px;"></button>
-                    <input type="hidden" name="_token" value="pW7HiM2Fr1K3PiLpELGwCPMaOksIhuG3BMh8L3Xd">
-                    <input type="hidden" name="type" value="Страница контактов">
-
-                    <div class="form-row p-2">
-                        <div class="col-md-6 mb-2 form-group">
-                            <input type="text" class="form-control" name="person" placeholder="Ваше имя" data-fv-field="person">
-                        <small class="help-block" data-fv-validator="stringLength" data-fv-for="person" data-fv-result="NOT_VALIDATED" style="display: none;">Имя не должно превышать 50 символов</small></div>
-                        <div class="col-md-6 mb-2 form-group">
-                            <input type="tel" class="form-control" name="phone" placeholder="Телефон*" data-fv-field="phone">
-                        <small class="help-block" data-fv-validator="notEmpty" data-fv-for="phone" data-fv-result="NOT_VALIDATED" style="display: none;">Введите телефон</small><small class="help-block" data-fv-validator="regexp" data-fv-for="phone" data-fv-result="NOT_VALIDATED" style="display: none;">Введите номер телефона</small></div>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <button type="reset" class="btn btn-dark m-2">Очистить</button>
-                        <button type="submit" class="btn btn-primary m-2">Отправить</button>
-                    </div>
-                </form>
+                {%- include form.html -%}
             </div>
         </div>
 </section>
